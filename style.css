@@ -243,34 +243,33 @@ body {
 @media screen and (max-width: 768px) {
   .main-display {
     flex-direction: column;
-    top: 50%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    top: 52%;
     left: 50%;
     transform: translate(-50%, -50%);
-    gap: 30px;
-  }
-
-  .cover-art {
-    width: 200px;
-    height: 200px;
   }
 
   .lyrics-container {
     text-align: center;
     max-width: 90vw;
+    padding: 0 10px;
   }
 
   .lyrics-container h1 {
     font-size: 1.2em;
+    line-height: 1.4;
+  }
+
+  .cover-art {
+    width: 220px;
+    height: 220px;
   }
 
   .controls-box {
     width: 90%;
     padding: 15px;
-  }
-
-  .controls {
-    flex-direction: column;
-    gap: 10px;
   }
 
   .track-info {
